@@ -1,0 +1,16 @@
+.data
+A: .word 1 # A is the first input
+
+.globl main
+.text
+
+# main program
+main:
+lw t3,0(A)
+li t4,5
+li t6, 20
+loop:
+   add t5,t3,t4       #adding function
+   bge t5,t6, exit
+   j loop
+exit:

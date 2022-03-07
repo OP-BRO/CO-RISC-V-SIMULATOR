@@ -1,0 +1,20 @@
+Raunak Yadav CS20B032
+Abhay krishna CS20B001
+
+We had made the whole project togather on google meet , whereas abhay take care of .data section and memory allocation, me Raunak worked on .text and registers , which each other's help
+our program is fully comment for easier understanding and it ignores comment in risc code also
+
+make sure before run the riscv code change its path in our main program with "//" instead of "/".
+
+we made (add, addi, sub, subi, li, bne, bge, ble, bgt, blt, beq, sw or sb, lw or lb, j ,jal , move or mv)
+
+our simulator works completly fine with program with these above instruction
+
+our progrom doesn't show user a error what they did wrong (error handling) and it read one instruction per line ,
+
+we working on input and output from the user while runing the code but we unable made any print or input instructions 
+
+ At firist we tried to make method  of each register but failed , now we made an array 
+of register name and prallel array of register value , which is working fine
+ 
+we had a hard time in jump ("j","lw","sw") instrustion and  but we succeeded 
